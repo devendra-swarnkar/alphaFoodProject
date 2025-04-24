@@ -69,3 +69,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
+This is figma design of the project: [https://www.figma.com/proto/VFQAX6Usg4e9bmk7kf0OJF/AlphaFood?page-id=0%3A1&node-id=528-487&node-type=FRAME&viewport=459%2C152%2C0.13&t=6Acj6DGVA28hNLBR-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=528%3A487]
