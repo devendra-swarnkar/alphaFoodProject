@@ -1,0 +1,1907 @@
+*{
+  margin: 0%;
+  padding: 0%;
+}
+
+.logotext{
+  font-size: 14px;
+  font-weight: 700;
+  position: relative;
+  top: -16px;
+  left: 57px;
+  margin: 0%;
+  padding: 0%;
+}
+.Inputfield{
+  width: 45%;
+  height: 50px;
+  display: flex;
+  align-items: flex-start;
+  border: 2px solid;
+  border-color: #EBEBEB;
+  border-radius: 12px;
+  
+}
+.inputContent{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 1%;
+}
+.loginButton{
+  font-size: 16px;
+  font-weight: 600;
+  margin: 0%;
+}
+.loginButton:hover{
+  color: #EE3244;
+  border-color: #EE3244;
+  border-width: 1.5px;
+  background-color: #f7aab2c1 ;
+}
+.productlist{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 15%;
+  margin: 5%;
+  width: 12vw;
+  height: 20vh;
+  border: none;
+  color: black;
+  font-weight: 600;
+}
+.Arow{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 20vh;
+  width: 10vw;
+  font-size: 40px;
+  color: black;
+}
+.productImage{
+  width: 100%;
+  height: 60px;
+}
+
+
+
+.productHeaderContent{
+  font-family: 'Morsan', sans-serif; 
+   font-size: 40px;
+  font-weight: 400;
+  line-height: 40px;
+}
+.foodProductContent{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  left: -100%;
+  top: 8%;
+
+}
+
+.ContainerContent{
+  background: #FFEFE4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+
+}
+.BurgerImage{
+  background-color: white;
+  border-radius: 10%;
+ 
+}
+.foodProduct1{
+  margin-left: 10%;
+  
+}
+.percentContent{
+  font-size: 32px;
+  font-weight: 850;
+  color:  #EE3244;
+  line-height: 40px;
+}
+.productFooterContent{
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 20px;
+  font-family: Montreal Serial;
+}
+.foodProduct2{
+  margin-right: 10%;
+}
+.pizzaImage{
+  background-color: white;
+  border-radius: 10%;
+}
+.biscuit{
+background-color: #EE3244;
+border-radius: 10%;
+}
+.foodProductContent2{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  left: -100%;
+  top: 8%;
+color: white;
+}
+.percentContentMid{
+  font-size: 32px;
+  font-weight: 850;
+  color:  #FCB90E;
+  
+  line-height: 40px;
+}
+.foodProduct3{
+  margin: 10%;
+  
+}
+.footerline{
+  background-color: #EE3244;
+  padding: 2%;
+}
+.AlphalogoInWhite{
+ margin-left: 5%;
+}
+.followContent{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  gap: 8px;
+
+}
+.followheader{
+  color: white;
+  font-family: Montreal Serial;
+  font-size: 20px;
+  font-weight: 900;
+  line-height: 25px;
+}
+.footerContent{
+  background-color: #282828;
+  padding:  5%;
+  
+}
+.footerHeaderContent{
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 25px;
+  
+}
+.footerBottomContent{
+  color:  #888888;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 32px;
+  display: flex;
+  flex-direction: column;
+}
+.AppStore{
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+}
+.footerLastContent{
+  background-image: url('./assets/AlphaBg.png') ;
+ 
+}
+.footerHeaderHighlight{
+  text-decoration: underline;
+  
+}
+.footerBottomCopyright{
+  color:  #888888;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 16px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: last baseline;
+  
+}
+.copyright{
+  background-color: #282828;
+  margin-bottom: 0%;
+  padding: 1%;
+}
+.contact-us{
+  font-family: Morsan;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 48px;
+  color: #ffffff;
+ padding-left: 5%;
+}
+.ContactContent{
+  background-image:url('./assets/ContactBg.png') ;
+  width: 100%;
+  height: 37vh;
+  margin: 0%;
+  padding: 0%;
+  display: grid;
+  align-items: center;
+
+}
+.homelink{
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 25px;
+  text-decoration: none;
+  padding-left: 5% ;
+}
+.Checkout{
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 25px;
+  text-decoration: none;
+  color: #8E8E8E;  
+}
+.ContactUsHeader{
+  font-family: Morsan;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 40px;
+  letter-spacing: 0px;
+  
+}
+.ContactUsHeaderPara{
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 17px;
+  letter-spacing: 0px;
+  color:  #666666;  
+}
+.ContactUsHeaderContent{
+  display: grid;
+  align-items: center;
+  padding-left:10% ;
+}
+.OutlineLogo{
+  color:#EE3244;
+}
+.OutlineLogoCircle{
+  background-color: #EE3244;
+  border-radius: 50%;
+  height: 13vh;
+  width: 7vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ContactUsOutlineLogoHeader{
+  color: #666666;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 0px;
+}
+.ContactUsOutlineLogoHeaderContent{
+  color: black;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 0px;
+}
+.ContactUsCardHeader{
+  font-size: 30px;
+  font-weight: 400;
+  font-family: Morsan;
+  letter-spacing: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+.ContactUsInputbox{
+  margin-left: 3%;
+  margin-right: 3%;
+  height: 7.8vh;
+  border-width: 1.5px;
+}
+
+.ContactUsCard{
+  height: 68vh;
+  width: 34.7vw;
+  border-radius: 20px;
+  border-width: 1px;
+}
+.ContactUsInputbox2{
+  margin-left: 3%;
+  margin-right: 3%;
+  height: 19vh;
+  border-width: 1.5px;
+ 
+ 
+}
+.ContactUsCardButton{
+  width: 17vw;
+  height: 7.8vh;
+  
+}
+.ContactUsCardButtonDiv{
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 2%;
+}
+.ContactUsMap{
+  width: 100%;
+  height: 40vh;
+  border-width: 2px;
+  
+}
+.loginContentHeader{
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 35px;
+  letter-spacing: 0px;
+  display: flex;
+}
+.LoginContentButton{
+  display: flex;
+  flex-direction: row;
+  
+}
+.LoginContentButton1{
+  width: 12vw;
+ margin-right: 1%;
+ color: #666666;
+ border: 1px solid #666666;
+}
+.RegisterContentButton1{
+  width: 12vw;
+  margin-right: 1%;
+  color: #666666;
+  border: 1px solid #666666;
+}
+
+.LoginContentButton1:hover{
+  color: #ee3245b0 !important;
+  background-color: #EE32440D;
+  
+  border: none;
+}
+.LoginContentButton1.active{
+  color: #ee3245b0 !important;
+  background-color: #EE32440D;
+  
+  border: none;
+}
+
+.RegisterContentButton1.active{
+  color: #ee3245b0 !important;
+  background-color: #EE32440D;
+  
+  border: none;
+}
+.RegisterContentButton1:hover{
+  color: #ee3245b0 !important;
+  background-color: #EE32440D;
+  
+  border: none;
+}
+.loginInputBox{
+  width: 100%;
+  height: 7vh;
+ 
+  border-width: 2px;
+}
+.LoginSendOTPButton{
+  width: 100%;
+  height: 7vh;
+}
+
+.LoginContent{
+  padding: 25%;
+}
+.partnerBG{
+  background-image: url('./assets/partnerWithUsBG.png');
+}
+.partnerHeader{
+  font-size: 48px;
+  font-family: Morsan;
+  line-height: 48px;
+  letter-spacing: 0px;
+  font-weight: 400;
+}
+.partnerContent{
+  padding: 6%;
+  
+}
+.partnerPara{
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+ letter-spacing: 0px;  
+}
+.PartnerRegisterButton{
+  width: 17vw;
+  height: 7vh;
+}
+.femaleCook{
+  position: relative;
+  left: 25%;
+  padding-top: 1%;
+}
+.LicenseContent{
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0px;
+   
+}
+.partnerCardHeader{
+  font-family: Morsan;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 48px;
+  letter-spacing: 0px;
+
+}
+.partnerCardPara{
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0px;
+}
+.partnerCard{
+  margin: 5%;
+  background-color:  #FFE6D6;
+  border-radius: 10px;
+}
+.partnerSecondHeader{
+  color: white;
+  font-weight: 700;
+  font-size: 33px;
+  line-height: 42px;
+  letter-spacing: 0px;
+  text-align: center;
+}
+.partnerSecondpara{
+  font-size: 20px;
+  line-height: 25px;
+  letter-spacing: 0px;
+  font-weight: 400;
+  text-align: center;
+  color: white;
+  text-align: center;
+}
+.PartnerSecondSection{
+margin:6%;
+padding-left: 7%;
+padding-right: 7%;
+}
+.partnerThirdCardContent{
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 36px;
+  letter-spacing: 0px;
+  font-family: Morsan;
+  display: flex;
+  flex-direction: row;
+  color: white;
+  padding: 6%;
+}
+.partnerThirdCard{
+  width: 27.5vw;
+  height: 24vh;
+  border-radius: 10px;
+  background-color: #3B3B3B;
+  margin-bottom: 10%;
+}
+.partnerSection2{
+  background-color: #282828;
+}
+.partnerThirdContentImage1{
+  position: relative;
+  top: 1%;
+  margin-right: 3%;
+}
+.partnerThirdContentImage2{
+  position: relative;
+  top: 2%;
+  margin-right: 3%;
+}
+.partnerThirdContentImage3{
+  position: relative;
+  top: 1%;
+  margin-right: 3%;
+}
+.partnerSectionThirdHeader{
+  font-weight: 400;
+  font-family: Morsan;
+  font-size: 48px;
+  line-height: 48px;
+  letter-spacing: 0px;
+
+}
+.partnerFourthCard{
+  width: 33%;
+  height: 40%;
+  background-color:  #EBEBEB;
+  border-width: 4px;
+  border-color: #FFFFFF;
+  border-radius: 15px;
+  box-shadow:
+  0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+  0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+  0 12.5px 10px rgba(0, 0, 0, 0.06),
+  0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+  0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+  0 100px 80px rgba(0, 0, 0, 0.12)
+;
+margin: 5%;
+position: relative;
+left: 30%;
+}
+.partnerFourthCardImage{
+ margin: 25%;
+ width: 48px;
+ height: 48px;
+}
+.partnerfourthSteps{
+  font-family: Morsan;
+  font-size: 32px;
+  line-height: 32px;
+  letter-spacing: 0px;
+  font-weight: 400;
+  margin: 2%;
+}
+.partnerFourthStepsContent{
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0px;
+  font-weight: 400;
+  text-align: center;
+}
+.partnerFourthCardSecond{
+  width: 33%;
+  height: 40%;
+  background-color:  #EE3244;
+  border-width: 4px;
+  border-color: #FFFFFF;
+  border-radius: 15px;
+  box-shadow:
+  0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+  0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+  0 12.5px 10px rgba(0, 0, 0, 0.06),
+  0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+  0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+  0 100px 80px rgba(0, 0, 0, 0.12)
+;
+margin: 5%;
+position: relative;
+left: 30%;
+}
+.CategorySlash{
+  font-size: 20px;
+  line-height: 25px;
+  letter-spacing: 0px;
+  font-weight: 500;
+  color: white;
+  margin: 0%;
+}
+.CategoryLink{
+  font-size: 20px;
+  line-height: 25px;
+  letter-spacing: 0px;
+  font-weight: 500;
+  color: white;
+  margin: 0%;
+  text-decoration: none;
+}
+.CartTableHeader{
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0px;
+}
+.spinButtonInTable{
+  border: 2px solid #D9D9D9;
+width: 9.3vw;
+height: 6.5vh;
+display: flex;
+flex-direction: row;
+}
+.spinInnerButton{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  color: #959595;
+  flex-direction: row;
+ 
+  font-size: 38px;
+ 
+  
+}
+.spinInnerButton:hover{
+  background-color: #b3ccf4;
+  border-color: #9bbdf4;
+  border-width: 2px;
+}
+.spinNumber{
+  font-size: 18px;
+  padding: 3%;
+  margin: 2%;
+}
+.CartTotalPrices{
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 0px;
+  text-align: right;
+}
+.CartTotalFinalPrice{
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0px;
+  text-align: right;
+  color: #EE3244 !important;
+  
+}
+.PriceDetail{
+  font-size: 14px;
+  line-height: 17px;
+  font-weight: 500;
+  letter-spacing: 0px;
+}
+.TotalAmount{
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0px;
+  font-weight: 500;
+}
+.PriceHeader{
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 0px;
+  font-weight: 400;
+}
+.CartTotal{
+  font-size: 24px;
+  line-height: 24px;
+  font-family: Morsan;
+  letter-spacing: 0px;
+  margin: 6%;
+}
+.CardCartTotal{
+  width: 27.3vw;
+  height: 54.6vh;
+  margin-top: 20%;
+  margin-left: 7%;
+  margin-right:15% ;
+  margin-bottom: 15%;
+  border: 2px solid #D7D7D7;
+  border-radius: 10px;
+}
+.ProceedToBuyButton{
+  width: 90%;
+  height: 7.8vh;
+  border-radius: 8px;
+font-size: 16px;
+font-weight: 700;
+letter-spacing: 0px;
+ margin: 5%;
+}
+.CheckoutTableHeader{
+  font-size: 24px;
+  line-height: 24px;
+  letter-spacing: 0px;
+  font-family: Morsan;
+  font-weight: 400;
+}
+.editButton{
+  border: none;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0px;
+  font-weight: 500;
+ text-align: right;
+ display: flex;
+ flex-direction: row;
+}
+.editButton:hover{
+  color: #EE3244;
+  background-color: #fb9ea7c8;
+}
+.CheckoutTablepara{
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 0px;
+  font-weight: 500;
+}
+.CheckoutTableData{
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 17px;
+ letter-spacing: 0px;
+}
+.radioInputINtable{
+  
+  size: 20px;
+
+}
+.radioInputINtable:hover{
+  color: #EE3244;
+  background-color: #EE3244;
+}
+.OrderImageContent{
+ 
+  
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 0px;
+  font-weight: 400;
+}
+.CheckoutPrices{
+  text-align: right;
+  align-content: center;
+ font-size: 16px;
+ line-height: 18px;
+ letter-spacing: 0px;
+ font-weight: 700;
+
+}
+.tipButton{
+  width: 5vw;
+  border: none;
+  margin: 1%;
+}
+.RedeemButton{
+  border-radius: 8px;
+}
+.PromoInput{
+  width: 17vw;
+  height: 6.5vh;
+}
+.checkoutCard{
+  width: 27.3vw;
+  height: 106vh;
+  border-radius: 10px;
+  border: 2px solid #D7D7D7;
+margin: 4%;
+}
+.MyAccountListGroup{
+  border: 2px solid #D7D7D7;
+  margin: 5%;
+  border-radius: 20px;
+  width: 27.3vw;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0px;
+  margin-top:15% ;
+  margin-bottom: 15%;
+}
+.list-group-item.active {
+  background-color: #ee3245f1;
+  border-color: #EE3244;
+}
+.ProfileInput{
+  height: 7.2vh;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0px; 
+}
+.ProfileSaveButton{
+  width: 10vw;
+  height: 7.2vh;
+  border-radius: 8px;
+}
+.MyAccountOrderCard{
+  border: 2px solid #D7D7D7;
+  padding: 1%;
+  margin: 5%;
+  border-radius: 20px;
+}
+.OrderIDpara{
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 500;
+  letter-spacing: 0px;
+  color: #666666;
+}
+.OrderPrices{
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 35px;
+  letter-spacing: 0px;
+}
+.OrderPriceContent{
+  text-align: end;
+  margin-top: 4%;
+}
+.ShipedCard{
+  border: none;
+  padding: 25%;
+  background-color: rgba(255, 182, 193, 0.413);
+  height: 10.5vh;
+  width: 5.4vw;
+  border-radius: 8px;
+}
+.NotificationCard{
+  border: 2px solid #D7D7D7;
+  margin: 2%;
+  border-radius: 8px;
+}
+.NotificationCardpara{
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 0px;
+  font-weight: 450;
+  font-family: Futura PT;
+}
+.NotificationCardHeader{
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 25px;
+  letter-spacing: 0px;
+  font-family: Futura PT;
+}
+.BigSandwichImage{
+  width: 10vw;
+  height: 19.5vh;
+}
+.FavoriteHeader{
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: 0px;
+
+}
+.ratingCard{
+  border: 1px solid #D7D7D7;
+  width: 64px;
+  height: 32px;
+}
+.ratingCardContent{
+  font-size: 14px;
+  line-height: 17px;
+  font-weight: 500;
+  letter-spacing: 0px;
+}
+.favoriteCard{
+  border: 2px solid #D7D7D7;
+  border-radius: 20px;
+  margin: 2%;
+}
+.AddAddress{
+  font-family: Morsan;
+  font-size: 24px;
+  line-height: 24px;
+  letter-spacing: 0px;
+  font-weight: 400;
+}
+.AddressInput{
+  border: 2px solid #EBEBEB;
+  border-radius: 8px;
+  margin: 0%;
+  width: 100%;
+  height: 7vh;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 0px;
+  font-weight: 500;
+  color: #8E8E8E;
+}
+
+.form-check-input:checked {
+  background-color: #fd0d44;
+  border-color: #fd0d69;
+  box-shadow: none;
+}
+
+.addressRadioButton{
+  display: flex;
+  flex-direction: row;
+  gap: 7%;
+}
+.TansactionTableCard{
+  border: 2px solid #D7D7D7;
+  height: 7vh;
+  border-radius: 8%;
+}
+.TansactionTableHeader{
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0px;
+
+}
+.TansactionTableContent{
+  font-size: 14px;
+  font-family: Futura PT;
+  line-height: 18px;
+  letter-spacing: 0px;
+  font-weight: 450;
+}
+.TansactionTablePrices{
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 19px;
+  letter-spacing: 0px;
+  font-family: Futura PT;
+  color: #EE3244 !important;
+}
+.successButtonInTransaction{
+  font-family: Futura PT;
+font-weight: 450;
+font-size: 12px;
+line-height: 18px;
+letter-spacing: 0%;
+color: #2B6F1B !important;
+width: 4.6vw;
+height: 3.6vh;
+padding: 2%;
+background-color:  #B8FFD0 !important;
+border: none;
+}
+.unsuccessfulButtonInTransaction{
+  font-family: Futura PT;
+font-weight: 450;
+font-size: 12px;
+line-height: 18px;
+letter-spacing: 0%;
+color: #B8163D !important;
+height: 3.6vh;
+width: 6.4vw;
+padding: 2%;
+background-color: #FFD0D9 !important;
+border: none;
+}
+.AddRestaurantButtonInNavbar:hover{
+  background-color: #cb5f78d7 !important;
+}
+.CreateRestaurantCardfirst{
+  background-color: #FFE6D6;
+  width: 86.7vw;
+  height: 38vh;
+  border-radius: 12px;
+}
+.CreateRestaurantCardfirstHeader{
+  font-family: Morsan;
+font-weight: 400;
+font-size: 48px;
+line-height: 48px;
+letter-spacing: 0%;
+}
+.CreateRestaurantCardfirstpara{
+  font-family: Montreal Serial;
+font-weight: 400;
+font-size: 16px;
+line-height: 20.37px;
+letter-spacing: 0%;
+}
+.CreateRestaurantCardSecondHeader{
+  font-family: Morsan;
+font-weight: 400;
+font-size: 32px;
+line-height: 32px;
+letter-spacing: 0%;
+margin-top: 3%;
+margin-left: 4%;
+}
+
+.CreateRestaurantCardSecondpara{
+  font-family: Montreal Serial;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20.37px;
+  letter-spacing: 0%;
+margin-left: 4%;
+}
+.CreateRestaurantCardSecondBody{
+  width: 57.1vw;
+  border-radius: 20px;
+  border: 2px solid #D7D7D7;
+ margin-left: 16%;
+ 
+}
+.timeline {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.timeline::after {
+  content: '';
+  position: absolute;
+  width: 65.5vw;
+  height: 2px;
+  background-color: #666666;
+  top: 0;
+  bottom: 0;
+  left: 10%;
+  
+}
+.TimelineContentHeader{
+  font-family: Montreal Serial;
+font-weight: 500;
+font-size: 16px;
+line-height: 20.37px;
+letter-spacing: 0%;
+
+}
+.RestaurantInput{
+  border: 2px solid #EBEBEB;
+  border-radius: 8px;
+  height: 7.2vh;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.RestaurantInputImage{
+  border: 2px solid #EBEBEB;
+  border-radius: 8px;
+  height: 7.2vh;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.RestaurantMap{
+  width: 93%;
+  height: 27vh;
+ margin-left: 4%;
+ margin-right: 4%;
+ margin-bottom: 2%;
+ border: 2px solid #D7D7D7;
+ border-radius: 15px;
+}
+.InputButtonDiv{
+  display: flex;
+  flex-direction: row;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 2%;
+  margin-top: 2%;
+}
+.NumberInputDiv{
+  border: 1px solid #EBEBEB;
+  border-radius: 8px;
+}
+.LandlineNumberInput{
+  border: 1px solid #EBEBEB;
+  border-radius: 8px;
+  margin-left: 5%;
+  margin-right: 5%;
+  width: 88%; 
+  height: 7vh;
+  margin-bottom: 3%;
+}
+.LinebreakInCard{
+  width: 16vw;
+  border: 1px solid #EBEBEB;
+}
+.NextButtonInRestaurant{
+  margin-left: 17%;
+  margin-top: 2%;
+  font-family: Montreal Serial;
+font-weight: 500;
+font-size: 16px;
+line-height: 20.37px;
+letter-spacing: 0%;
+text-align: center;
+border-radius: 8px;
+height: 7vh;
+display: flex;
+  justify-content: end;
+  align-items: center;
+ 
+  color: white;
+}
+.btn-close{
+  position: absolute;
+  top: 2%;
+  right: 2%;
+  border: 1px solid #535353;
+  background-color: #666666;
+  color: #3B3B3B;
+}
+
+
+.AddAddressHeadCard{
+  border: 1px solid #EBEBEB;
+  background-color: #EBEBEB;
+  border-radius: 8px;
+  padding: 2%;
+  margin: 2%;
+
+}
+.AddAddressCardHeader{
+font-weight: 500;
+font-size: 16px;
+line-height: 20px;
+letter-spacing: 0%;
+margin: 1%;
+}
+.AddAddressContantHeader{
+font-weight: 700;
+font-size: 16px;
+line-height: 100%;
+letter-spacing: 0%;
+
+}
+.AddAddressContantpara{
+  font-family: Futura PT;
+font-weight: 450;
+font-size: 14px;
+line-height: 100%;
+letter-spacing: 0%;
+
+}
+.errorMessage{
+  font-family: Futura PT;
+font-weight: 450;
+font-size: 11px;
+line-height: 11.48px;
+letter-spacing: 0%;
+color: #FF0000;
+margin-top: -2%;
+}
+ul.dropdown-menu {
+  margin: 3px;
+  right: 0px;
+  
+}
+.RestaurantCardBody{
+  display: flex;
+  flex-direction: column;
+  padding: 2%;
+}
+.RestaurantCardBodyContent{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 2%;
+  height: 30vh;
+  overflow: scroll;
+}
+.RestaurantCard{
+  border: 2px solid #e1e1e1;
+  border-radius: 20px;
+  height: 87vh;
+} 
+.RestaurantImageInCard{
+  border-radius: 20px;
+  width: 100%;
+  height: 31vh;
+  
+  
+}
+.ShowProductCard{
+  border: 2px solid #e1e1e1;
+  border-radius: 20px;
+  height: 47vh;
+}
+.ProductNameShow{
+  font-family: Montreal Serial;
+font-weight: 700;
+font-size: 24px;
+line-height: 100%;
+letter-spacing: 0%;
+
+}
+
+.RedAddtoCart:hover{
+  background-color: #cb5f78d7 !important;
+}
+.RedAddtoCart{
+  font-family: Montreal Serial;
+font-weight: 700;
+font-size: 16px;
+line-height: 100%;
+letter-spacing: 0%;
+border-radius: 5px;
+border: 2px solid #ee324552;
+
+}
+.ProductPriceShow{
+  font-family: Montreal Serial;
+font-weight: 700;
+font-size: 20px;
+line-height: 100%;
+letter-spacing: 0%;
+color: #666666;
+
+}
+.ProductsHeader{
+  font-family: Morsan;
+font-weight: 400;
+font-size: 48px;
+line-height: 100%;
+letter-spacing: 0%;
+margin: 3%;
+}
+.restaurantTable{
+  overflow-y:scroll ;
+  height: 15vh;
+}
+
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+  .navbar .container-fluid {
+    padding: 0.5rem;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  /* Logo area */
+  .navbar-brand {
+    margin-right: 1rem;
+  }
+
+  .navbar-brand img {
+    width: 140px;
+    height: auto;
+  }
+
+  .logotext {
+    font-size: 0.8rem;
+  }
+
+  /* Search input area */
+  .Inputfield {
+    order: 3;
+    width: 100%;
+    margin-top: 0.5rem;
+    max-width: none;
+  }
+
+  .inputContent {
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
+
+  .inputContent input {
+    font-size: 0.9rem;
+  }
+
+  /* Buttons */
+  .AddRestaurantButtonInNavbar {
+    font-size: 0.85rem;
+    padding: 0.3rem 0.6rem !important;
+  }
+
+  .AddRestaurantButtonInNavbar img {
+    width: 20px;
+    height: 20px;
+  }
+
+  .btn.fw-medium {
+    font-size: 0.85rem;
+    padding: 0.3rem 0.6rem;
+  }
+
+  /* User profile area */
+  .dropdown .btn-secondary {
+    font-size: 0.85rem;
+    padding: 0.3rem 0.6rem !important;
+  }
+
+  /* Login/Register buttons */
+  .loginButton {
+    font-size: 0.85rem;
+    padding: 0.3rem 0.6rem;
+  }
+
+  /* Profile picture */
+  .navbar img[alt="Profile pic"] {
+    width: 30px;
+    height: 30px;
+  }
+
+  /* Cart button */
+  .btn img[alt="Cart"] {
+    width: 20px;
+    height: 20px;
+  }
+
+  /* Dropdown menu */
+  .dropdown-menu {
+    min-width: 180px;
+  }
+
+  .dropdown-item {
+    font-size: 0.85rem;
+    padding: 0.4rem 0.8rem;
+  }
+
+  /* product list */
+  .pagination {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    scrollbar-width: none; /* Hide scrollbar for Firefox */
+    -ms-overflow-style: none; /* Hide scrollbar for IE and Edge */
+    justify-content: flex-start;
+    padding: 0.5rem 0;
+    margin: 0;
+  }
+  
+  /* Hide scrollbar for Chrome, Safari and Opera */
+  .pagination::-webkit-scrollbar {
+    display: none;
+  }
+  
+  /* Page items */
+  .pagination .page-item {
+    flex: 0 0 auto;
+    margin: 0 0.25rem;
+  }
+  
+  /* Product links */
+  .pagination .page-link.productlist {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 0.75rem;
+    padding: 0.5rem;
+    min-width: 70px;
+    height: auto;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  
+  /* Product images */
+  .productImage {
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+    margin-bottom: 0.25rem;
+  }
+  
+  /* Arrow buttons */
+  .page-link[aria-label="Previous"],
+  .page-link[aria-label="Next"] {
+    position: sticky;
+    z-index: 2;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 0.5rem 0.75rem;
+    height: 100%;
+    display: flex;
+    align-items: center;
+  }
+  
+  .page-link[aria-label="Previous"] {
+    left: 0;
+  }
+  
+  .page-link[aria-label="Next"] {
+    right: 0;
+  }
+  
+  /* Arrow icons */
+  .Arow {
+    font-size: 1.2rem;
+    font-weight: bold;
+    height: 100%;
+  }
+  
+  
+  .ContainerContent{
+    background: #FFEFE4;
+    display: flex;
+    flex-direction: column;
+   
+    padding-top: 2%;
+    padding-bottom: 2%;
+   
+  }
+  .foodProduct1{
+    margin-left: 0%;
+    margin-right: 0%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    
+  }
+  .foodProduct3{
+    margin-left: 0%;
+    margin-right: 0%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    
+  }
+  .foodProduct2{
+    margin-left: 0%;
+    margin-right: 0%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    
+  }
+  .ContactContent{
+    background-image:url('./assets/ContactBg.png') ;
+    width: 100%;
+    height: 13vh;
+    margin: 0%;
+    padding: 0%;
+    display: grid;
+    align-items: center;
+  
+  }
+  .CreateRestaurantCardfirst{
+    background-color: #FFE6D6;
+    height: 17vh;
+    border-radius: 12px;
+   display: block;
+  }
+  .RestaurantInput{
+    border: 2px solid #EBEBEB;
+    border-radius: 8px;
+    height: 3vh;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  .RestaurantInputImage{
+    border: 2px solid #EBEBEB;
+    border-radius: 8px;
+    height: 3vh;
+    margin-left: 5%;
+    margin-right: 5%;
+   
+  }
+  .ContactUsMap{
+    width: 100%;
+    height: 10vh;
+    border-width: 2px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    border-radius: 15px;
+    
+  }
+  .MapheightInRestaurant{
+    width: 100%;
+    height: 9.9vh;
+    border-width: 2px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    border-radius: 15px;
+  }
+  .LandlineNumberInput{
+    border: 1px solid #EBEBEB;
+    border-radius: 8px;
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 88%; 
+    height: 3vh;
+    margin-bottom: 3%;
+  }
+  .spanWordInCreateRestauarnt{
+    font-size: 12px;
+  }
+  .NextButtonInRestaurant{
+    margin-left: 17%;
+    margin-top: 2%;
+    font-family: Montreal Serial;
+  font-weight: 500;
+  font-size: 16px;
+ 
+  text-align: center;
+  border-radius: 8px;
+  height: 4vh;
+  display: flex;
+    justify-content: end;
+    align-items: center;
+   
+    color: white;
+  }
+ 
+  .OutlineLogoCircle{
+    background-color: #EE3244;
+    border-radius: 50%;
+    height: 95%;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  
+  .ContactUsInputbox{
+    margin-left: 5%;
+    margin-right: 5%;
+    height: 3vh;
+    border-width: 1.5px;
+  }
+  .ContactUsInputbox2{
+    margin-left: 5%;
+    margin-right: 5%;
+    height: 9vh;
+    border-width: 1.5px;
+  }
+  .ContactUsCardButton{
+    width: 17vw;
+    height: 4vh;
+    
+  }
+  .ContactUsCard{
+    height: 30vh;
+    width: 34.vw;
+    border-radius: 20px;
+    border-width: 1px;
+  }
+  .container {
+    max-width: 90%;
+    padding: 0 1rem;
+  }
+  
+  /* Card containing the map */
+  .ContactUsMap {
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Map iframe container */
+  .col-lg-12.col-md-12.col-sm-12.col-12.px-0.py-0 {
+    padding: 0;
+    height: 350px; /* Fixed height for tablet view */
+  }
+  
+  /* Map iframe */
+  .ContactUsMapIframe {
+    height: 100% !important; /* Override the inline height */
+    min-height: 350px;
+    width: 100%;
+    border-radius: 8px;
+    display: block;
+  }
+  .ProfileInput{
+    height: 3vh;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0px; 
+  }
+  .ProfileSaveButton{
+    width: 10vw;
+    height: 3vh;
+    border-radius: 8px;
+  }
+  /* .AlphaFooter{
+    position: sticky;
+    bottom: 0;
+
+  } */
+  .footerBottomCopyright{
+    color:  #888888;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: last baseline;
+    
+  }
+  .copyright{
+    background-color: #282828;
+    margin-bottom: 0%;
+    padding: 1%;
+  }
+  .MyAccountOrderCard{
+    border: 2px solid #D7D7D7;
+    padding: 1%;
+    margin: 5%;
+    border-radius: 20px;
+    height: 10vh;
+  }
+  .MyAccountOrderHeader{
+    font-size: larger;
+  }
+  .MyAccountOrderCardbutton{
+    font-size: small;
+    padding: 2%;
+    margin-left: 5%;
+    padding-left: 4%;
+    padding-right: 4%;
+    border-radius: 5px;
+    background-color: #EE3244;
+    color: white;
+  }
+  .NotificationCard{
+    border: 2px solid #D7D7D7;
+   
+    border-radius: 8px;
+    height: 7vh;
+    margin: 2%;
+  }
+  .ShipedCard{
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 182, 193, 0.413);
+    height: 5.6vh;
+    width: 5.4vw;
+    border-radius: 8px;
+  }
+  .favoriteCard{
+    border: 2px solid #D7D7D7;
+    border-radius: 20px;
+    margin: 2%;
+    height: 8vh;
+    padding: 0%;
+  }
+  .BigSandwichImage{
+    width: 68%;
+    height: 100%;
+    margin-left: 7%;
+    margin-bottom: 7%;
+   
+  }
+  .FavoriteHeader{
+    font-size: x-large;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0px;
+  }
+  .OrderPrices{
+    font-size: x-large;
+    font-weight: 700;
+    line-height: 35px;
+    letter-spacing: 0px;
+    margin-right: 5%;
+  }
+  .OrderPriceContent{
+    text-align: end;
+    margin-top: 2%;
+  }
+  .AddressInput{
+    border: 2px solid #EBEBEB;
+    border-radius: 8px;
+    margin: 0%;
+    width: 100%;
+    height: 3vh;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0px;
+    font-weight: 500;
+    color: #8E8E8E;
+  }
+  .successButtonInTransaction{
+    font-family: Futura PT;
+  font-weight: 450;
+  font-size: 12px;
+  line-height: 18px;
+  letter-spacing: 0%;
+  color: #2B6F1B !important;
+  width: 100%;
+  height: 100%;
+  padding: 2%;
+  background-color:  #B8FFD0 !important;
+  border: none;
+  }
+  .unsuccessfulButtonInTransaction{
+    font-family: Futura PT;
+  font-weight: 450;
+  font-size: 12px;
+  line-height: 18px;
+  letter-spacing: 0%;
+  color: #B8163D !important;
+  height: 100%;
+  width: 100%;
+  padding: 2%;
+  background-color: #FFD0D9 !important;
+  border: none;
+  }
+  .PartnerRegisterButton{
+    width: 70%;
+    height: 100%;
+    border-radius: 8px;
+    text-align: center;
+  }
+  .partnerCardHeader{
+    font-family: Morsan;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 30px;
+    letter-spacing: 0px;
+  
+  }
+  .LicenseContent{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0px;
+  }
+  .partnerThirdCardContent{
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 20px;
+    letter-spacing: 1px;
+    font-family: Morsan;
+    display: flex;
+    flex-direction: row;
+    color: white;
+    padding: 6%;
+  }
+  .partnerThirdCard{
+    width: 100%;
+    height: 80%;
+    border-radius: 10px;
+    background-color: #3B3B3B;
+    margin-bottom: 10%;
+  }
+  .partnerFourthCard{
+    width: 40%;
+    height: 30%;
+    background-color:  #EBEBEB;
+    border-width: 4px;
+    border-color: #FFFFFF;
+    border-radius: 15px;
+    box-shadow:
+    0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+    0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+    0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12)
+  ;
+  margin: 5%;
+  position: relative;
+  left: 30%;
+  }
+  .partnerFourthCardSecond{
+    width: 40%;
+    height: 30%;
+    background-color:  #EE3244;
+    border-width: 4px;
+    border-color: #FFFFFF;
+    border-radius: 15px;
+    box-shadow:
+    0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+    0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+    0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12)
+  ;
+  margin: 5%;
+  position: relative;
+  left: 30%;
+  }
+  .SavedInCart{
+    font-size: x-small;
+    font-weight: 500;
+   
+    letter-spacing: 0px;
+    width: 130%;
+    text-align: center;
+    height: 3vh;
+   
+  }
+  .spinButtonInTable{
+    border: 2px solid #D9D9D9;
+  width: 100%;
+  height: 3vh;
+  display: flex;
+  flex-direction: row;
+  }
+  .ProceedToBuyButton{
+    width: 90%;
+    height: 3vh;
+    border-radius: 8px;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 0px;
+   margin: 5%;
+  }
+  .CardCartTotal{
+    width: 110%;
+    height: 90%;
+    margin-top: 20%;
+    margin-left: 7%;
+    margin-right:15% ;
+    margin-bottom: 15%;
+    border: 2px solid #D7D7D7;
+    border-radius: 10px;
+  }
+ 
+   .RestaurantImageInCard{
+    border-radius: 20px;
+    width: 100%;
+    height: 25%;
+   }
+   .RestaurantCardBody{
+    display: flex;
+    flex-direction: column;
+    padding: 2%;
+  }
+   .RestaurantCard{
+    border: 2px solid #e1e1e1;
+    border-radius: 20px;
+    height: 60%;
+  } 
+  .RestaurantCardBodyContent{
+    display: flex;
+    flex-direction: column;
+    padding: 2%;
+    height: 30%;
+    overflow: scroll;
+    margin-top: 2%;
+    margin-bottom: 2%;
+  }
+  .ShowProductCard{
+    border: 2px solid #e1e1e1;
+    border-radius: 20px;
+    height: 88%;
+    margin: 0%;
+  }
+  .ProductNameShow{
+    font-family: Montreal Serial;
+  font-weight: 700;
+  font-size: larger;
+  line-height: 20px;
+  letter-spacing: 0%;
+  
+  }
+  .RedAddtoCart{
+    font-family: Montreal Serial;
+  font-weight: 700;
+  font-size: small;
+ 
+  letter-spacing: 0%;
+  border-radius: 5px;
+  border: 2px solid #ee324552;
+  height: 3vh;
+  width: 90%;
+  margin-bottom: 2%;
+  margin-right: 2%;
+  }
+  .ProductPriceShow{
+    font-family: Montreal Serial;
+  font-weight: 700;
+  font-size: large ;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #666666;
+  margin-right: 3%;
+  
+  }
+  .RestaurantImageInCardInShowProduct{
+    border-radius: 20px;
+    width: 100%;
+    height: 60%;
+    
+  }
+  .LoginContent{
+    padding: 20%;
+  }
+  .loginInputBox{
+    width: 100%;
+    height: 3vh;
+    border-width: 2px;
+  }
+  .LoginSendOTPButton{
+    width: 100%;
+    height: 3vh;
+  }
+}
+
+
