@@ -1,7 +1,7 @@
 
 
 import React, { useEffect, useState } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate, useNavigation } from 'react-router-dom';
 import DeleteLogo from "../assets/Delete.png";
 import axios from 'axios';
 import { toast } from 'react-toastify';
@@ -13,6 +13,9 @@ const [showProduct, setShowProduct] = useState([]);
 const [saveforlater, setSaveforlater] = useState([]);
 
     const [userId, setUserId] = useState(null);
+
+    const navigate = useNavigate();
+    
 
  const storedUser = localStorage.getItem("user");
     const parsedUser = storedUser ? JSON.parse(storedUser) : null;
@@ -110,6 +113,39 @@ const Saveforlater = async(item) => {
 
 }
 
+const handleCheckout = async () => {
+    if (showProduct.length === 0) {
+      toast.error("Your cart is empty. Please add items to proceed.");
+      return;
+    }
+  
+    try {
+      // Post the cart data to the checkout endpoint
+      await axios.post('http://localhost:5000/checkout', {
+        userId,
+        products: showProduct,
+        totalAmount,
+      });
+  
+      toast.success("Order placed successfully!");
+  
+   
+for (const item of showProduct) {
+    await axios.delete(`http://localhost:5000/cart/${item.id}`);
+}
+
+
+setShowProduct([]); // Clear the cart state
+navigate('/checkout');
+ 
+
+    
+    } catch (error) {
+      console.error("Error during checkout:", error);
+      toast.error("Failed to place the order. Please try again.");
+    }
+  };
+
 
     const handleQuantityChange = (id, type) => {
         setShowProduct(prev =>
@@ -136,7 +172,8 @@ const Saveforlater = async(item) => {
     const deliveryFee = 20;
     const discount = 2;
     const totalAmount = totalMRP + deliveryFee - discount;
-
+    
+    
     return (
         <>
             <section className='custom-section'>
@@ -157,7 +194,7 @@ const Saveforlater = async(item) => {
             <section className='custom-section'>
                 <div className='container'>
                     <div className="row">
-                        <div className='col-lg-8 col-md-8 col-sm-12 col-12'>
+                        <div className='col-lg-8 col-md-12 col-sm-12 '>
                             <table className="table my-5">
                                 <thead>
                                     <tr>
@@ -176,14 +213,14 @@ const Saveforlater = async(item) => {
                                             
                                             
                                             <tr key={item.id}>
-                                                <td><img width={80} height={80} className='rounded-4' src={item.ProductImage} alt="product" /></td>
+                                                <td><img width={80} height={80} className='rounded-4 ProductImageInCart' src={item.ProductImage} alt="product" /></td>
                                                 <td>
-                                                    <p>{item.ProductName}</p>
+                                                    <p className='ProductInCartSize'>{item.ProductName}</p>
                                                     <button type='button' className='btn btn-danger SavedInCart' onClick={() => Saveforlater(item)}>Save for Later</button>
                                                 </td>
-                                                <td><p>₹ {item.ProductPrice}</p></td>
+                                                <td><p className='ProductInCartSize'>₹ {item.ProductPrice}</p></td>
 
-                                                <td><p>5%</p></td>
+                                                <td><p className='ProductInCartSize'>5%</p></td>
                                                 <td>
                                                     <div className='card spinButtonInTable'>
                                                         <button type='button' className='btn spinInnerButton' onClick={() => handleQuantityChange(item.id, 'dec')}>-</button>
@@ -193,7 +230,7 @@ const Saveforlater = async(item) => {
 
                                                 </td>
                                                 <td>
-                                                <p>₹ {Number(item.ProductPrice) * (1 + TAX_RATE) * item.quantity}</p>
+                                                <p className='ProductInCartSize'>₹ {Number(item.ProductPrice) * (1 + TAX_RATE) * item.quantity}</p>
 
                                                 </td>
                                                 <td>
@@ -212,8 +249,8 @@ const Saveforlater = async(item) => {
                             </table>
                         </div>
 
-                        <div className='col-lg-4 col-md-4 col-sm-12 col-12 mb-5'>
-                            <div className='card CardCartTotal'>
+                        <div className='col-lg-4 col-md-12 col-sm-12  mb-5'>
+                            <div className='card CardCartTotal mx-0'>
                                 <h4 className='CartTotal'>Cart Total</h4>
                                 <table className="table">
                                     <thead>
@@ -243,7 +280,7 @@ const Saveforlater = async(item) => {
                                         </tr>
                                     </thead>
                                 </table>
-                                <button type='button' className='btn btn-dark ProceedToBuyButton'>Proceed to buy</button>
+                                <button type='button' className='btn btn-dark ProceedToBuyButton'  onClick={handleCheckout}>Proceed to buy</button>
                             </div>
                         </div>
                     </div>

@@ -31,22 +31,22 @@ const Partner = () => {
                 </div>
                 <div className='container card partnerCard'>
                     <div className='row'>
-                        <div className='col-lg-4 col-md-4 col-sm-4 col-4'>
-                            <div className='my-5 mx-3'>
+                        <div className='col-lg-4 col-md-4 col-sm-12 '>
+                            <div className='my-5 mx-0'>
                                 <h4 className='partnerCardHeader'>Get started with
                                     online ordering</h4>
                                 <p className='partnerCardPara'>Please keep the documents ready for a
                                     smooth signup</p></div>
 
                         </div>
-                        <div className='col-lg-4 col-md-4 col-sm-4 col-4 my-5'>
+                        <div className='col-lg-4 col-md-4 col-sm-12 my-2 '>
                             <p className='LicenseContent'><img src={WriteLogo} alt="Write-logo" className='mx-2' />FSSAI license copy</p>
                             <p className='LicenseContent'><img src={WriteLogo} alt="Write-logo" className='mx-2' />Your restaurant menu</p>
                             <p className='LicenseContent'><img src={WriteLogo} alt="Write-logo" className='mx-2' />Bank account details</p>
 
 
                         </div>
-                        <div className='col-lg-4 col-md-4 col-sm-4 col-4 my-5'>
+                        <div className='col-lg-4 col-md-4 col-sm-12  my-2'>
                             <p className='LicenseContent'><img src={WriteLogo} alt="Write-logo" className='mx-2' />Regular GSTIN (if applicable)</p>
                             <p className='LicenseContent'><img src={WriteLogo} alt="Write-logo" className='mx-2' />PAN card copy</p>
                             <p className='LicenseContent'><img src={WriteLogo} alt="Write-logo" className='mx-2' />Dish images for top 5 items</p>
@@ -72,7 +72,7 @@ const Partner = () => {
        
                 <div className='container'>
                     <div className='row '>
-                        <div className='col-lg-4 col-md-4 col-sm-4 col-4 '>
+                        <div className='col-lg-4 col-md-4 col-sm-12 '>
                             <div className='card partnerThirdCard'>
                                 <div className='partnerThirdCardContent'>
                                     <img src={LocationLogoRed} alt=" location" className='partnerThirdContentImage1 ' />
@@ -80,14 +80,14 @@ const Partner = () => {
                                      </div>
                             </div>
                         </div>
-                        <div className='col-lg-4 col-md-4 col-sm-4 col-4'>
+                        <div className='col-lg-4 col-md-4 col-sm-12'>
                             <div className='card partnerThirdCard'>
                                 <div className='partnerThirdCardContent'><img src={RestaurantRedLogo} alt=" location" className='partnerThirdContentImage2 ' />
                                <p>3 lakh+ restaurant listings</p> 
                                 </div>
                             </div>
                         </div>  
-                        <div  className='col-lg-4 col-md-4 col-sm-4 col-4'>
+                        <div  className='col-lg-4 col-md-4 col-sm-12'>
                                  <div className='card partnerThirdCard'>
                                            <div className='partnerThirdCardContent'>
                                        <img src={OrderRedLogo} alt=" location" className='partnerThirdContentImage3 ' />
@@ -109,7 +109,7 @@ const Partner = () => {
                 </div>
                 <div className='container'>
                     <div className='row'>
-                        <div className='col-lg-4 col-md-4 col-sm-4 col-4 '>
+                        <div className='col-lg-4 col-md-4 col-sm-12 '>
                             <div className='card partnerFourthCard'>
                                 <img src={PartnerDOClogo} alt="Partner-Doc-logo" className='partnerFourthCardImage ' />
                             </div>
@@ -120,7 +120,7 @@ const Partner = () => {
                                 creating a listing on Jetsetter India</p>
                             </div>
                         </div>
-                        <div className='col-lg-4 col-md-4 col-sm-4 col-4'>
+                        <div className='col-lg-4 col-md-4 col-sm-12'>
                         <div className='card partnerFourthCardSecond'>
                                 <img src={deliveryBikeLogo} alt="Delivery-bike-logo" className='partnerFourthCardImage ' />
                             </div>
@@ -131,7 +131,7 @@ const Partner = () => {
                                 customers with ease</p>
                             </div>
                         </div>
-                        <div className='col-lg-4 col-md-4 col-sm-4 col-4'>
+                        <div className='col-lg-4 col-md-4 col-sm-12'>
                         <div className='card partnerFourthCard'>
                                 <img src={OrderWhiteLogo} alt="Order-white-logo" className='partnerFourthCardImage ' />
                             </div>

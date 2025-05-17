@@ -104,13 +104,13 @@ import axios from 'axios';
                                             
                                             
                                             <tr key={item.id}>
-                                                <td><img width={80} height={80} className='rounded-4' src={item.ProductImage} alt="product" /></td>
+                                                <td><img width={80} height={80} className='rounded-4 ProductImageInCart' src={item.ProductImage} alt="product" /></td>
                                                 <td>
-                                                    <p>{item.ProductName}</p>
+                                                    <p className='ProductInCartSize'>{item.ProductName}</p>
                                                 </td>
-                                                <td><p>₹ {item.ProductPrice}</p></td>
+                                                <td><p className='ProductInCartSize'>₹ {item.ProductPrice}</p></td>
 
-                                                <td><p>5%</p></td>
+                                                <td><p className='ProductInCartSize'>5%</p></td>
                                                 <td>
                                                     <div className='card spinButtonInTable'>
                                                         <button type='button' className='btn spinInnerButton' onClick={() => handleQuantityChange(item.id, 'dec')}>-</button>
@@ -120,7 +120,7 @@ import axios from 'axios';
 
                                                 </td>
                                                 <td>
-                                                <p>₹ {Number(item.ProductPrice) * (1 + TAX_RATE) * item.quantity}</p>
+                                                <p className='ProductInCartSize'>₹ {Number(item.ProductPrice) * (1 + TAX_RATE) * item.quantity}</p>
 
                                                 </td>
                                                 <td>
@@ -140,8 +140,8 @@ import axios from 'axios';
                             </table>
                         </div>
 
-                        <div className='col-lg-4 col-md-4 col-sm-12 col-12'>
-                            <div className='card CardCartTotal'>
+                        <div className='col-lg-4 col-md-12 col-sm-12 '>
+                            <div className='card CardCartTotal mx-0'>
                                 <h4 className='CartTotal'>Cart Total</h4>
                                 <table className="table">
                                     <thead>

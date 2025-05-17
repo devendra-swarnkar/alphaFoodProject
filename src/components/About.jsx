@@ -42,6 +42,8 @@ const About = () => {
                                 <>
                                     <h4 className='footerHeaderContent'> <span className='footerHeaderHighlight'>FO</span>R  RESTAURANTS</h4>
                                     <Link className='footerBottomContent' to="/Partner" > Partner With Us</Link>
+                                    <Link className='footerBottomContent hide-on-tab-window' to="/CreateRestaurant" > Add Restaurant</Link>
+                                    <Link className='footerBottomContent hide-on-tab-window' to="/Cart" > Cart</Link>
                                     <Link className='footerBottomContent' href="/" > Apps For You</Link>
                                     
                                 </>
@@ -82,8 +84,8 @@ const About = () => {
                             <h4 className='footerHeaderContent'> Download Alpha
                                 Food Platinum</h4>
                             <div className='AppStore'>
-                                <Link href="/"><img src={GooglePlayImage} alt="Google Play" /></Link>
-                                <Link href="/"><img src={AppStoreImage} alt="App Store" /></Link>
+                                <Link href="/"><img className='AppStoreLogo' src={GooglePlayImage} alt="Google Play" /></Link>
+                                <Link href="/"><img className='AppStoreLogo' src={AppStoreImage} alt="App Store" /></Link>
                             </div>
 
                         </div>

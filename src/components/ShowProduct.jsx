@@ -122,7 +122,7 @@ const ShowProduct = () => {
                     <div className="row">
                         {showProduct.length > 0 ? (
                             showProduct.map((item, index) => (
-                                <div className="col-4 my-3" key={index}>
+                                <div className="col-lg-4 col-md-6 col-sm-12 my-3" key={index}>
                                     <div className="card ShowProductCard">
                                         <img
                                             src={item.ProductImage}

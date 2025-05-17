@@ -225,7 +225,7 @@ const MyAccount = () => {
             <section className='custom-section'>
                 <div className='container'>
                     <div className="row">
-                        <div className="col-4">
+                        <div className="col-lg-4 col-md-4 col-sm-12">
                             <div className="list-group MyAccountListGroup " id="list-tab" role="tablist">
                                 <Link className="list-group-item list-group-item-action active " id="list-profile-list" data-bs-toggle="list" to="#list-profile" role="tab" aria-controls="list-profile"> <img src={ProfileImage} alt="Profile-image" /> Profile Update</Link>
                                 <Link className="list-group-item list-group-item-action" id="list-order-list" data-bs-toggle="list" to="#list-order" role="tab" aria-controls="list-order"> <img src={OrderImage} alt="OrderLogo" /> Order</Link>
@@ -237,7 +237,7 @@ const MyAccount = () => {
 
                             </div>
                         </div>
-                        <div className="col-8">
+                        <div className="col-lg-8 col-md-8 col-sm-12">
 
                             <div className="tab-content" id="nav-tabContent">
                                 <div className="tab-pane fade show active" id="list-profile" role="tabpanel" aria-labelledby="list-profile-list">
@@ -336,10 +336,10 @@ const MyAccount = () => {
                                     <div>
                                         <div className='container-fluid card MyAccountOrderCard'>
                                             <div className='row'>
-                                                <div className='col-6'>
+                                                <div className='col-8'>
                                                     <div className='row'>
                                                         <div className='col-6'>
-                                                            <img src={OrderProductImage} alt="Order-Product-Image" />
+                                                            <img src={OrderProductImage} alt="Order-Product-Image" className='OrderProductImageInMyAccount' />
                                                         </div>
                                                         <div className='col-6 '>
                                                             <h3 className='MyAccountOrderHeader'>Friy Papad</h3>
@@ -348,7 +348,7 @@ const MyAccount = () => {
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div className='col-6'>
+                                                <div className='col-4'>
                                                     <div className='text-end my-3 '>
                                                         <h4 className='OrderPrices'>₹210</h4>
                                                         <p className='OrderIDpara'>Oty - 4</p>
@@ -358,10 +358,10 @@ const MyAccount = () => {
                                         </div>
                                         <div className='container-fluid card MyAccountOrderCard'>
                                             <div className='row'>
-                                                <div className='col-6'>
+                                                <div className='col-8'>
                                                     <div className='row'>
                                                         <div className='col-6'>
-                                                            <img src={OrderProductImage} alt="Order-Product-Image" />
+                                                            <img src={OrderProductImage} alt="Order-Product-Image" className='OrderProductImageInMyAccount' />
                                                         </div>
                                                         <div className='col-6'>
                                                             <h3 className='MyAccountOrderHeader'>Friy Papad</h3>
@@ -370,7 +370,7 @@ const MyAccount = () => {
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div className='col-6'>
+                                                <div className='col-4'>
                                                     <div className='text-end my-3 '>
                                                         <h4 className='OrderPrices'>₹210</h4>
                                                         <p className='OrderIDpara'>Oty - 4</p>
@@ -380,10 +380,10 @@ const MyAccount = () => {
                                         </div>
                                         <div className='container-fluid card MyAccountOrderCard'>
                                             <div className='row'>
-                                                <div className='col-6'>
+                                                <div className='col-8'>
                                                     <div className='row'>
                                                         <div className='col-6'>
-                                                            <img src={OrderProductImage} alt="Order-Product-Image" />
+                                                            <img src={OrderProductImage} alt="Order-Product-Image" className='OrderProductImageInMyAccount' />
                                                         </div>
                                                         <div className='col-6'>
                                                             <h3 className='MyAccountOrderHeader'>Friy Papad</h3>
@@ -392,7 +392,7 @@ const MyAccount = () => {
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div className='col-6'>
+                                                <div className='col-4'>
                                                     <div className='text-end my-3 '>
                                                         <h4 className='OrderPrices'>₹210</h4>
                                                         <p className='OrderIDpara'>Oty - 4</p>
@@ -462,7 +462,7 @@ const MyAccount = () => {
                                     <div className='my-5'>
                                         <div className='container-fluid card favoriteCard'>
                                             <div className='row'>
-                                                <div className='col-6'>
+                                                <div className='col-8'>
                                                     <div class="d-flex align-items-center my-2">
                                                         <div class="flex-shrink-0">
                                                             <img src={BigSandwichImage} alt="BigSandwich" className='BigSandwichImage' />
@@ -475,15 +475,15 @@ const MyAccount = () => {
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div className='col-6  OrderPriceContent'>
+                                                <div className='col-4  OrderPriceContent'>
                                                     <h4 className='OrderPrices'>₹210</h4>
-                                                    <button type='button' className='btn btn-outline-danger mx-2'><img src={CartImage} alt=" Cart-logo" />Add to Cart</button>
+                                                    <button type='button' className='btn btn-outline-danger mx-2 ADDtoCartButtonInFavorite'><img src={CartImage} alt=" Cart-logo" />Add to Cart</button>
                                                 </div>
                                             </div>
                                         </div>
                                         <div className='container-fluid card favoriteCard'>
                                             <div className='row'>
-                                                <div className='col-6'>
+                                                <div className='col-8'>
                                                     <div class="d-flex align-items-center my-2">
                                                         <div class="flex-shrink-0">
                                                             <img src={BigSandwichImage} alt="BigSandwich" className='BigSandwichImage' />
@@ -496,15 +496,15 @@ const MyAccount = () => {
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div className='col-6 OrderPriceContent'>
+                                                <div className='col-4 OrderPriceContent'>
                                                     <h4 className='OrderPrices'>₹210</h4>
-                                                    <button type='button' className='btn btn-outline-danger mx-2'><img src={CartImage} alt=" Cart-logo" />Add to Cart</button>
+                                                    <button type='button' className='btn btn-outline-danger mx-2 ADDtoCartButtonInFavorite'><img src={CartImage} alt=" Cart-logo" />Add to Cart</button>
                                                 </div>
                                             </div>
                                         </div>
                                         <div className='container-fluid card favoriteCard'>
                                             <div className='row'>
-                                                <div className='col-6'>
+                                                <div className='col-8'>
                                                     <div class="d-flex align-items-center my-2">
                                                         <div class="flex-shrink-0">
                                                             <img src={BigSandwichImage} alt="BigSandwich" className='BigSandwichImage' />
@@ -517,9 +517,9 @@ const MyAccount = () => {
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div className='col-6 OrderPriceContent'>
+                                                <div className='col-4 OrderPriceContent'>
                                                     <h4 className='OrderPrices'>₹210</h4>
-                                                    <button type='button' className='btn btn-outline-danger mx-2'><img src={CartImage} alt=" Cart-logo" />Add to Cart</button>
+                                                    <button type='button' className='btn btn-outline-danger mx-2 ADDtoCartButtonInFavorite'><img src={CartImage} alt=" Cart-logo" />Add to Cart</button>
                                                 </div>
                                             </div>
                                         </div>
@@ -658,7 +658,7 @@ const MyAccount = () => {
                                 </div>
                                 <div className="tab-pane fade" id="list-Tansaction" role="tabpanel" aria-labelledby="list-Tansaction-list">
                                     <div>
-                                        <table className="table my-5 mx-3">
+                                        <table className="table my-5 mx-0">
                                             <thead className='TansactionTableCard'>
                                                 <tr >
                                                     <th scope="col" className='TansactionTableHeader'>Order ID </th>

@@ -64,7 +64,7 @@ const Restaurants = () => {
                 <div className="container-fluid px-0">
                     <div className="row ContactContent ">
                         <div className='col-lg-12 col-md-12  col-sm-12  col-12 '>
-                            <div className="contact-us">Create Restaurant</div>
+                            <div className="contact-us">My Restaurant</div>
                             <Link className=' homelink' to="/">Home </Link>
                             <span className='Checkout mx-3'>/</span>
                             <Link className='Checkout' to="/Partner" >Partner</Link>
@@ -93,7 +93,7 @@ const Restaurants = () => {
                                             alt="Restaurant Logo"
                                         />
                                         <div className="card-body RestaurantCardBody">
-                                            <h5 className="card-title"> {item.RestaurantName}</h5>
+                                            <h5 className="card-title my-2"> {item.RestaurantName}</h5>
                                             <p className="card-text RestaurantCardBodyContent ">
                                                 <table>
                                                     <tbody>

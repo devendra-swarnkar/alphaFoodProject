@@ -165,12 +165,13 @@ const CreateRestaurant = () => {
                             <h2 className='CreateRestaurantCardfirstHeader'>Create Your Restaurant Page</h2>
                             <p className='CreateRestaurantCardfirstpara'>Restaurant name, address, contact no., owner details</p>
                         </div>
+                        
                         <div className='timeline '>
                             <div className='content bottom'>
                                 <h5 className='TimelineContentHeader my-3'>Restaurant Information</h5>
                             </div>
                             <div className='content bottom'>
-                                <h5 className='TimelineContentHeader my-3'>Restaurant Type & Timings</h5>
+                                <h5 className='TimelineContentHeader my-3'>Restaurant Types & Timings</h5>
                             </div>
                             <div className='content bottom'>
                                 <h5 className='TimelineContentHeader my-3'>Upload Images</h5>
@@ -185,7 +186,7 @@ const CreateRestaurant = () => {
                     </div>
 
                 </div>
-                <div className='container'>
+                <div className='container '> 
                     <div className='card CreateRestaurantCardSecondBody '>
                         <h2 className='CreateRestaurantCardSecondHeader'>Restaurant details</h2>
                         <p className='CreateRestaurantCardSecondpara'>Name, address and location</p>
@@ -236,7 +237,7 @@ const CreateRestaurant = () => {
                         <div className='InputButtonDiv'>
                             <div className="input-group NumberInputDiv ">
                                 <span className="input-group-text" id="basic-addon1">+91</span>
-                                <input type="number" className="form-control" placeholder="Enter Mobile Number" aria-label="MobileNumber" aria-describedby="basic-addon1" name='ContactNumberofRestaurant' value={response.ContactNumberofRestaurant} onChange={handleChange} required />
+                                <input type="number" className="form-control " placeholder="Enter Mobile Number" aria-label="MobileNumber" aria-describedby="basic-addon1" name='ContactNumberofRestaurant' value={response.ContactNumberofRestaurant} onChange={handleChange} required />
                             </div>
                             <button type='button' className='btn btn-dark py-2 px-5 mx-3' >Verify</button>
                         </div>
@@ -252,7 +253,7 @@ const CreateRestaurant = () => {
                         </div>
                         <div className="input-group LandlineNumberInput ">
                             <span className="input-group-text" id="basic-addon1">+91</span>
-                            <input type="number" className="form-control" placeholder="STD Code |  Landline Number" aria-label="STDCodeORLandlineNumber" aria-describedby="basic-addon1" name='LandlineNumberofRestaurant' value={response.LandlineNumberofRestaurant} onChange={handleChange} required/>
+                            <input type="number" className="form-control " placeholder="STD Code |  Landline Number" aria-label="STDCodeORLandlineNumber" aria-describedby="basic-addon1" name='LandlineNumberofRestaurant' value={response.LandlineNumberofRestaurant} onChange={handleChange} required/>
                         </div>
                     </div>
                 </div>

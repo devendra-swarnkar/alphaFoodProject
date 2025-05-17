@@ -22,7 +22,7 @@ const ContactUs = () => {
             <section className='custom-section'>
                 <div className="container-fluid my-5">
                     <div className='row'>
-                        <div className='col-lg-7 col-md-7 col-sm-7 col-7 '>
+                        <div className='col-lg-7 col-md-7 col-sm-12  '>
                             <div className='ContactUsHeaderContent'>
                                 <h4 className='ContactUsHeader'>Contact Us</h4>
                                 <p className='ContactUsHeaderPara'>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
@@ -31,7 +31,7 @@ const ContactUs = () => {
                                 <div className='row'>
                                     <div className='col-lg-3 col-md-3 col-sm-3  col-3 d-flex justify-content-end'>
                                         <div className='OutlineLogoCircle'>
-                                            <img className='OutlineLogo' height={30} width={30} src={LocationOutline} alt="Location logo" /></div>
+                                            <img className='OutlineLogo' height={24} width={24} src={LocationOutline} alt="Location logo" /></div>
                                     </div>
                                     <div className='col-lg-9 col-md-9 col-sm-9  col-9'><h6 className='ContactUsOutlineLogoHeader'>Address</h6>
                                         <p className='ContactUsOutlineLogoHeaderContent'>Plot Number 152, Ratanlok Colony, Scheme No 53, near Cars 24 showroom,
@@ -42,7 +42,7 @@ const ContactUs = () => {
                                 <div className='row'>
                                     <div className='col-lg-3 col-md-3 col-sm-3  col-3 d-flex justify-content-end'>
                                         <div className='OutlineLogoCircle'>
-                                            <img className='OutlineLogo' height={30} width={30} src={telephoneLogo} alt="phone logo" /></div>
+                                            <img className='OutlineLogo' height={24} width={24} src={telephoneLogo} alt="phone logo" /></div>
                                     </div>
                                     <div className='col-lg-9 col-md-9 col-sm-9  col-9 my-3'><h6 className='ContactUsOutlineLogoHeader'>Phone Number</h6> <p className='ContactUsOutlineLogoHeaderContent '>+123-456-7869</p></div>
                                 </div>
@@ -51,13 +51,13 @@ const ContactUs = () => {
                                 <div className='row'>
                                     <div className='col-lg-3 col-md-3 col-sm-3  col-3 d-flex justify-content-end'>
                                         <div className='OutlineLogoCircle'>
-                                            <img className='OutlineLogo' height={30} width={30} src={MailLogo} alt="Mail logo" /></div>
+                                            <img className='OutlineLogo' height={24} width={24} src={MailLogo} alt="Mail logo" /></div>
                                     </div>
                                     <div className='col-lg-9 col-md-9 col-sm-9 col-9 my-3'><h6 className='ContactUsOutlineLogoHeader' >E-mail</h6> <p className='ContactUsOutlineLogoHeaderContent'>alpha@alphawizz.com</p></div>
                                 </div>
                             </div>
                         </div>
-                        <div className='col-lg-5 col-md-5 col-sm-5  col-5'>
+                        <div className='col-lg-5 col-md-5 col-sm-12'>
                             <div className='card ContactUsCard'>
                                 <h5 className='ContactUsCardHeader'>Contact Us</h5>
                                 <div className="input-group mb-3">
@@ -81,10 +81,10 @@ const ContactUs = () => {
             </section>
 
 
-            <section className='custom-section my-5'>
+            <section className='custom-section my-5 mx-3 MapINContactUs'>
                 <div className='container'>
                     <div className='row card ContactUsMap'>
-                        <div className='col-lg-12 col-md-12 col-sm-12 col-12 px-0 py-0'><iframe
+                        <div className='col-lg-12 col-md-12 col-sm-12  px-0 py-0 '><iframe
                             src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d29437.548120835156!2d75.89349105!3d22.739630299999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1739362698300!5m2!1sen!2sin"
                           height="162%"
                            className='ContactUsMapIframe'
